@@ -1,0 +1,52 @@
+
+Assignment: Implementing Hash Tables and Collision Resolution
+Part 1: Hash Function Basics
+Write a program to implement a simple hash function using the modulus operator (key % table_size).
+
+Insert a sequence of integer keys into an array of size 10.
+
+Show where each key is placed, both with no collisions handled and with linear probing.
+
+Example input: [15, 25, 35, 45]
+
+Students should demonstrate step-by-step placement.
+
+Part 2: Separate Chaining
+Implement a hash table with separate chaining using linked lists.
+
+Support the following operations:
+
+put(key, value)
+
+get(key)
+
+contains(key)
+
+remove(key)
+
+Test the program by inserting at least 10 keys that produce collisions and demonstrate successful retrieval.
+
+Part 3: Open Addressing – Linear Probing
+Implement the same hash table using open addressing with linear probing.
+
+Insert values into the table and handle collisions using linear probing.
+
+Write test cases where clustering occurs and show the runtime effect when searching for an element.
+
+Part 4: Open Addressing – Quadratic Probing
+Modify the open addressing implementation to use quadratic probing.
+
+Test with the same set of inputs as in Part 3, comparing the distribution of keys in the table.
+
+Highlight cases where quadratic probing fails to find empty slots even though space is available.
+
+Part 5: Analysis Questions (Short Answer)
+Students should explain:
+
+The difference between separate chaining and open addressing.
+
+What causes primary clustering in linear probing, and how quadratic probing tries to fix it.
+
+Why choosing a prime table size is important for quadratic probing.
+
+Given a sequence of insertions, identify the load factor and decide when resizing should occur.
